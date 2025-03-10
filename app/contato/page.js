@@ -10,16 +10,16 @@ export default function Contato() {
   const [mensagem, alteraMensagem] = useState("");
 
   const showToast = (e) => {
-    e.preventDefault(); // Evita que o formulário seja enviado
+    e.preventDefault(); 
 
-    // Verifica se os campos estão vazios
+    
     if (mensagem === "" || nome === "") {
       toast("Por favor, preencha todos os campos...");
     } else {
       toast("Mensagem enviada com sucesso!");
     }
   };
-
+    //Testando um teste com uma testada
   return (
     <div>
       <h1>Página de Contato</h1>
