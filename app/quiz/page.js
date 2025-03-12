@@ -3,7 +3,7 @@ import "./quiz.css"
 
 import { useState } from "react";
 
-function Quiz() {
+function Quiz2() {
 
     const [ p1, alteraP1 ] = useState(0)
     const [ p2, alteraP2 ] = useState(0)
@@ -83,4 +83,4 @@ function Quiz() {
      );
 }
 
-export default Quiz;
+export default Quiz2;

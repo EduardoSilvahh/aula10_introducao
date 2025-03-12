@@ -13,11 +13,20 @@ function Painel(){
 
     function autenticadorUsuario(){
         if(nome == "eduardo" && senha == 202008){
+            alteraMostraerro(false)
             alteraloginautorizado(true)
+            
+        }else if (nome == "" && senha == ""){
+            alteraMostraerro(false)
+            alteraloginautorizado(false)
+
         }else{
             alteraMostraerro(true)
+            alteraloginautorizado(false)
         }
+
         
+    
     }
     
 
